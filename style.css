@@ -1,0 +1,82 @@
+div.ten {
+    text-align: center;
+    color: rgb(245, 255, 104);
+    text-shadow: rgb(1, 7, 82) 0.1em 0.1em 0.2em;
+    font-size: 250%;
+    position: absolute;
+    left: 500px;
+    top: 90px;
+}
+
+#background1 {
+    background-color: rgb(230, 148, 210);
+    width: 1890px;
+    height: 235px;
+}
+
+#background2 {
+    background-color: rgb(224, 180, 214);
+    width: 1890px;
+    height: 685px;
+}
+
+img.anh {
+    width: 350px;
+    height: 350px;
+    align: "left";
+    border: 6px solid white;
+    /*vẽ đường viền cho ảnh*/
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    /*tạo hình tròn cho ảnh*/
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    /* vị trí cho ảnh*/
+    /* z-index: -1; */
+    /* cho ảnh ra sau chữ nếu ảnh trùng với chữ*/
+}
+
+h1.link {
+    position: absolute;
+    left: 220px;
+    top: 500px;
+    /* vị trí ho dòng này*/
+}
+
+h2.thongtin2 {
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    text-align: left;
+}
+
+div.gmail {
+    position: absolute;
+    left: 180px;
+    top: 593px;
+    border: 2px solid white;
+}
+
+div.fb {
+    position: absolute;
+    left: 180px;
+    top: 525px;
+    border: 2px solid white;
+}
+
+table.bang {
+    position: absolute;
+    font-size: 200%;
+    color: yellow;
+    text-shadow: rgb(1, 7, 82) 0.1em 0.1em 0.2em;
+    top: 275px;
+    left: 600px;
+}
+
+hr.dongke {
+    position: absolute;
+    top: 430px;
+    left: 600px;
+}
